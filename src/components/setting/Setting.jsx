@@ -13,7 +13,7 @@ export default function Setting() {
   const [file, setFile] = useState(null);
   const [success, setSuccess] = useState(false);
   const [delSuccess, setDelSuccess] = useState(false);
-  const PF = "https://zen-e-zenzero-back/images/";
+  const PF = "https://zen-e-zenzero-back.onrender.com/images/";
 
   const handleSubmit = async (e) => {
     e.preventDefault();
