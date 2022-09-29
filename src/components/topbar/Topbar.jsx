@@ -8,7 +8,7 @@ import { faInstagram, faFacebook, faLinkedin } from '@fortawesome/free-brands-sv
 
 export default function Topbar() {
   const { user, dispatch } = useContext(Context);
-  const PF = "http://localhost:5000/images/";
+  const PF = "https://zen-e-zenzero-back.onrender.com/images/";
 
   const handleLogout = () => {
     dispatch({ type: "LOGOUT" });

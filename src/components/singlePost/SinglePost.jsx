@@ -27,7 +27,7 @@ export default function SinglePost() {
     fetchSinglePost();
   }, [postId]);
 
-  const PF = "http://localhost:5000/images/";
+  const PF = "https://zen-e-zenzero-back.onrender.com/images/";
 
   const handleDelete = async () => {
     try {

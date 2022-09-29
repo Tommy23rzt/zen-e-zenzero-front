@@ -13,7 +13,7 @@ export default function Setting() {
   const [file, setFile] = useState(null);
   const [success, setSuccess] = useState(false);
   const [delSuccess, setDelSuccess] = useState(false);
-  const PF = "http://localhost:5000/images/";
+  const PF = "https://zen-e-zenzero-back/images/";
 
   const handleSubmit = async (e) => {
     e.preventDefault();
