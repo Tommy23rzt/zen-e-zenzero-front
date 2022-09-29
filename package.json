@@ -43,5 +43,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://zen-e-zenzero-back/api/"
+  "proxy": "https://zen-e-zenzero-back.onrender.com/api/"
 }
